@@ -2,7 +2,7 @@ const fireDiv = document.querySelector(".fireworksDiv");
 const fireworks = new Fireworks(fireDiv, {
   delay: { min: 75, max: 90 },
   trace: 5,
-  speed: 1,
+  speed: 5,
   particles: 100,
   sound: {
     enable: true,
