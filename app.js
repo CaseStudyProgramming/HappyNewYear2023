@@ -1,9 +1,9 @@
 const fireDiv = document.querySelector(".fireworksDiv");
 const fireworks = new Fireworks(fireDiv, {
-  delay: { min: 60, max: 75 },
+  delay: { min: 75, max: 90 },
   trace: 5,
-  speed: 0.5,
-  particles: 150,
+  speed: 1,
+  particles: 100,
   sound: {
     enable: true,
     files: ["https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"],
